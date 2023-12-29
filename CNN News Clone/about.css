@@ -1,0 +1,80 @@
+nav{
+    font-family: "Ubuntu", sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 53px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.aboutjan{
+    width: 90vw;
+    height: 80vh;
+    margin-left: 60px;
+    margin-top: 20px;
+    background-image: url("images/img4.jpg");
+}
+.aboutjan h1{
+    font-family: sans-serif;
+    position: absolute;
+    left: 540px;
+}
+.aboutjan .peh{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: green;
+    position: absolute;
+    top: 130px;
+    margin-left: 10px;
+}
+.peh:hover{
+    color: crimson;
+}
+.aboutjan .adres{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: aqua;
+    position: absolute;
+    top: 230px;
+    margin-left: 10px;
+}
+.adres:hover{
+    color: black;
+}
+.aboutjan .num{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: yellow;
+    position: absolute;
+    top: 330px;
+    margin-left: 10px;
+}
+.num:hover{
+    color: blue;
+}
+.aboutjan .email{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: greenyellow;
+    position: absolute;
+    top: 440px;
+    margin-left: 10px;
+}
+.email:hover{
+    color: grey;
+}
