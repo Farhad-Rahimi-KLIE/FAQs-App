@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    position: fixed;
+    right: 0;
+    padding: 0.4rem;
+    width: 4rem;
+    background: #000;
+    color: goldenrod;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    height: 100vh;
+}
+.btn:hover{
+    color: white;
+    background-color: goldenrod;
+}
+.main-editor{
+    background: rgb(46, 45, 45);
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 2px 3px black;
+    position: fixed;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid rgb(143, 144, 144);
+}
+.first{
+    background-color: white;
+    width: 50%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space: pre;
+    box-shadow: 0 1px 1px black;
+    outline: none;
+    padding: 0.6rem;
+    height: 90vh;
+}
+.second{
+    background-color: rgb(120, 120, 120);
+    width: 50%;
+    overflow-y:auto;
+    white-space: pre;
+    right: 0;
+    box-shadow: 0 1px 1px black;
+    padding: 0.4rem;
+    height: 90vh;
+}
