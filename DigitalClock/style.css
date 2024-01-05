@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.container h1{
+    font-size: 30px;
+    color: indigo;
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
+#select{
+    width: 400px;
+    height: 40px;
+    position:absolute;
+    left: 490px;
+    top: 120px;
+    background-color: black;
+    color:indigo;
+}
+#btn{
+    position: absolute;
+    left: 940px;
+    top: 120px;
+    /* background-color: indigo; */
+    font-size: 20px;
+    outline-color: red;
+    color: rgb(7, 178, 53);
+
+}
+#para{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    left: 435px;
+    top: 200px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
